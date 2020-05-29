@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Hero : MonoBehaviour
 {
@@ -24,7 +25,8 @@ public class Hero : MonoBehaviour
         HealthChange.Invoke(Health);
         if (Health==0)
         {
-         print("You're dead!");
+            print("You're dead!");
+            SceneManager.LoadScene("SampleScene");
         }
     }
 

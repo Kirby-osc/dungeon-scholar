@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CamFollowPlayer.cs" t="Include" />
+          <e p="Coins.cs" t="Include" />
+          <e p="DefaultSword.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="Enemy_Slime.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
+          <e p="Hero.cs" t="Include" />
+          <e p="Key.cs" t="Include" />
+          <e p="PeakyTrap.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="State.cs" t="Include" />
+          <e p="Weapon.cs" t="Include" />
+        </e>
+        <e p="tiles" t="Include">
+          <e p="wall" t="Include">
+            <e p="obs.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="dungeon-scholar.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_dungeon-scholar.578190693.00" t="ExcludeRecursive" />
+  </component>
+</project>
