@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coins : MonoBehaviour
+public class Coins : MonoBehaviour //  Класс Монеты
 {
     public float _amount;
     
