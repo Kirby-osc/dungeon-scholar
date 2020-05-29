@@ -13,7 +13,6 @@ public class DefaultSword : Weapon
         if (Input.GetKeyDown(KeyCode.Mouse0))
         { 
             anim.SetTrigger("Attack");
-            //???
             Collider2D[] hitEnemys = Physics2D.OverlapCircleAll(attackPoint.position, attackRange,enemyLayers);
             foreach (Collider2D col in hitEnemys)
             {
